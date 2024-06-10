@@ -1,1 +1,3 @@
 this is file one of folder two
+
+file amended 
