@@ -7,3 +7,5 @@ final command for git push
 renamed this file
 
 edited on github editor and committed........
+
+added more data and bug fix
