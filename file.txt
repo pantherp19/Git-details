@@ -1,1 +1,48 @@
 hello this is my file one for git
+
+To check your git version, you can run the following command
+
+git --version
+
+to see the current state of your repository
+
+git status
+
+Let’s setup your email and username in this config file. I would recommend you to create an account on github and then use the email and username that you have created.
+
+git config --global user.email "your-email@example.com"
+git config --global user.name "Your Name"
+
+check your config settings
+
+git config --list
+
+To create a repository
+
+git status
+git init
+
+Stage is a way to tell git to track a particular file or folder. You can use the following command to stage a file
+
+git init
+git add <file> <file2>
+git status
+
+committing the changes to the repository
+
+git commit -m "commit message"
+git status
+
+This command will show you the history of your repository
+
+git log
+
+To create a new branch, you can use the following command
+
+git branch
+git branch bug-fix
+git switch bug-fix
+git log
+git switch master
+git switch -c dark-mode
+git checkout orange-mode
